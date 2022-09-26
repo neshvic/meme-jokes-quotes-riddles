@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme/jokes/quotes/riddles</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+     <main>
+      <section class="content">     
+        <h2>Output</h2>
+        <h3>Incase your'e feeling sad today, hope this cheers you up</h3>
+        <div class = 'meme'></div>
+        <h3>Here's something to laugh about</h3>
+        <div class = 'joke'></div>
+        <h3>My Grandma once said</h3>
+        <div class = 'quote'></div>
+        <h3>Answer This Riddle if you can</h3>
+        <div class = 'riddle'></div>
+      </section>
+      <section class="sidebar">
+        <h2>Actions</h2>
+        <button onclick="showMeme()">Show a Meme</button>
+        <button onclick="showJoke()">Tell Me a Joke</button>
+        <button onclick="showQuote()">Random Quote</button>
+        <button onclick="showRiddle()">Riddle me</button>
+        <button class="reveal-btn" onclick="revealAnswers()">
+          Reveal Riddle Answer
+        </button>
+        <p class="attribution">
+        </p>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
